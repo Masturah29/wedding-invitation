@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Masturah &amp; Mokhtar — You're Invited</title>
+  <meta name="description" content="Wedding invitation — simple, mobile-first template you can share on WhatsApp." />
+  <style>
+    :root{--accent:#b76ea1;--muted:#7b7b7b;--bg:#fff;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,#fff 0%,#fff 60%,#f7f2f9 100%);color:#111}
+    .container{max-width:900px;margin:0 auto;padding:20px}
+    .card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 6px 24px rgba(12,12,20,0.06);margin-bottom:20px}
+    .hero{display:flex;gap:16px;align-items:center}
+    .hero .photo{flex:0 0 120px;height:120px;border-radius:14px;overflow:hidden}
+    .hero .photo img{width:100%;height:100%;object-fit:cover;display:block}
+    .hero .text h1{margin:0;font-size:20px}
+    .hero .text p{margin:6px 0 0;color:var(--muted)}
+
+    .date{display:flex;gap:12px;align-items:center;font-weight:600;color:var(--accent)}
+    .section{margin-top:10px}
+    .details{display:grid;grid-template-columns:1fr;gap:10px}
+
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-outline{border:2px solid var(--accent);color:var(--accent);background:transparent}
+
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+    .gallery img{width:100%;height:88px;object-fit:cover;border-radius:8px}
+
+    .map{width:100%;height:220px;border-radius:10px;overflow:hidden}
+
+    footer{text-align:center;color:var(--muted);font-size:13px;margin-top:12px}
+
+    /* Responsive */
+    @media (max-width:640px){
+      .hero{flex-direction:row}
+      .hero .photo{flex:0 0 90px;height:90px}
+      .gallery{grid-template-columns:repeat(3,1fr)}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card" style="text-align:center;padding:28px">
+      <div style="font-size:13px;color:var(--muted);letter-spacing:1px">You are cordially invited</div>
+      <h2 style="margin:10px 0 6px">Masturah &amp; Mokhtar</h2>
+      <div style="color:var(--muted);margin-bottom:14px">Together with their families</div>
+      <div class="date">Saturday, December 13, 2025 · 10:00 AM</div>
+      <p style="margin-top:14px;color:#444;">Join us for a day of joy and celebration — ceremony followed by reception.</p>
+      <div style="margin-top:16px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <!-- RSVP opens WhatsApp chat with prefilled message -->
+        <a class="btn btn-primary" href="https://wa.me/60123456789?text=Assalamualaikum%20I%20will%20attend%20the%20wedding%20of%20Masturah%20and%20Mokhtar%20on%20Dec%2013,%202025" target="_blank" rel="noopener">RSVP via WhatsApp</a>
+        <!-- View location (scrolls to map) -->
+        <a class="btn btn-outline" href="#venue">View Venue</a>
+      </div>
+    </div>
+
+    <div class="card hero">
+      <div class="photo"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=fa1b8f2b4b6c4a8a8a6a2d6f9f7b9e3a" alt="Couple"></div>
+      <div class="text">
+        <h1>Masturah &amp; Mokhtar</h1>
+        <p style="max-width:420px">We're excited to celebrate with family and friends. Scroll down for details, gallery, and directions.</p>
+      </div>
+    </div>
+
+    <div class="card section" id="details">
+      <h3 style="margin-top:0">Details</h3>
+      <div class="details">
+        <div style="background:#fbfbfb;padding:10px;border-radius:10px">
+          <strong>Ceremony</strong>
+          <div style="color:var(--muted)">10:00 AM — Masjid Al-Falah, Jalan Example, Kuala Lumpur</div>
+        </div>
+        <div style="background:#fbfbfb;padding:10px;border-radius:10px">
+          <strong>Reception</strong>
+          <div style="color:var(--muted)">12:00 PM — Dewan Serbaguna, Example Hall</div>
+        </div>
+        <div style="background:#fbfbfb;padding:10px;border-radius:10px">
+          <strong>Dress Code</strong>
+          <div style="color:var(--muted)">Smart Traditional / Baju Melayu &amp; Kebaya</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card section">
+      <h3 style="margin-top:0">Gallery</h3>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1c0a1c2f1d3b5a6f7e8d9c0b" alt="photo1">
+        <img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=2e4d3a5b6c7d8e9f0a1b2c3d" alt="photo2">
+        <img src="https://images.unsplash.com/photo-1536635072419-8b6c0b7db1f1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3b4c5d6e7f8a9b0c1d2e3f4g" alt="photo3">
+      </div>
+    </div>
+
+    <div class="card section" id="venue">
+      <h3 style="margin-top:0">Venue &amp; Directions</h3>
+      <div style="margin-bottom:10px;color:var(--muted)">Masjid Al-Falah, Jalan Example, Kuala Lumpur</div>
+      <div class="map">
+        <!-- Replace the src with your Google Maps embed URL for exact location -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.1234567890123!2d101.6869!3d3.1390!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDA4JzAwLjAiTiAxMDFcwMAnNTAuMCJX!5e0!3m2!1sen!2smy!4v1600000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <p style="margin-top:10px;color:var(--muted);font-size:14px">Tip: tap the map to open in Google Maps for navigation.</p>
+    </div>
+
+    <div class="card section" id="gifts">
+      <h3 style="margin-top:0">Gifts</h3>
+      <p style="color:var(--muted)">Your presence is the best gift. If you wish to give, a small contribution towards our home is appreciated. Contact via WhatsApp for bank details.</p>
+      <a class="btn btn-outline" href="https://wa.me/60123456789?text=Hi%20Masturah%20—%20I%27d%20like%20to%20ask%20about%20gift%20details" target="_blank" rel="noopener">Contact about gifts</a>
+    </div>
+
+    <footer>
+      <div>Made with ❤️ — share this link on WhatsApp</div>
+    </footer>
+  </div>
+</body>
+</html>
